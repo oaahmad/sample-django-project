@@ -1,0 +1,17 @@
+{
+    "name": "Sample Dev Container",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "sample-devcontainer",
+    "workspaceFolder": "/home/ubuntu/sample-django-project",
+    "remoteEnv": {
+        "DJANGO_SETTINGS_MODULE": "sampleapp.settings"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python"
+            ]
+        }
+    },
+    "remoteUser": "ubuntu"
+}

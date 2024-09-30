@@ -1,0 +1,10 @@
+services:
+  sample-devcontainer:
+    build:
+      dockerfile: .devcontainer/sample-devcontainer/Dockerfile
+      context: ../../
+    volumes:
+      - ../../:/home/ubuntu/sample-django-project
+    environment:
+      - DJANGO_SETTINGS_MODULE=sampleapp.settings
+    tty: true

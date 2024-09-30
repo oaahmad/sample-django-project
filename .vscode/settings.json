@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "/home/ubuntu/sample-virtual-env/bin/python3",
+  "python.envFile": "/home/ubuntu/sample-django-project/src/sampleapp/.env",
+  "python.testing.unittestArgs": ["--noinput"],
+  "python.testing.unittestEnabled": true,
+  "python.testing.cwd": "/home/ubuntu/sample-django-project/src",
+}
